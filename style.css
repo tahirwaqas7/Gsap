@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: gilroy;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: #fff;
 }
 
@@ -30,4 +30,17 @@ body {
     height: 300px;
     width: 300px;
     background-color: rgb(241, 73, 22);
+}
+
+h1 {
+    color: #FFB000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrap {
+    height: 250px;
+    width: 250px;
+    background-color: lightpink;
 }

@@ -33,9 +33,23 @@ gsap.from("#box2", {
 });
 
 gsap.from("h1", {
-  color: "red",
-  duration: 3,
-  delay:1,
+  // color: "red",
+  color: "white",
+  opacity: 0,
+  y: 30,
+  duration: 2,
+  delay: 1,
+  stagger: -0.5,
 });
 
 // console.log("hello");
+
+gsap.to(".wrap", {
+  x: 1050,
+  duration: 4,
+  delay: 1,
+  repeat: -1,
+  rotate: 360,
+  borderRadius: "52%",
+  scale: ".25",
+});
