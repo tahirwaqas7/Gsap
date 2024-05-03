@@ -1,8 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+    font-family: "Lato", sans-serif;
+    /* font-family: "Poppins", sans-serif; */
+    /* font-family: "Roboto", sans-serif; */
+    /* font-family: "Nunito", sans-serif; */
+
+    font-style: normal;
     color: #fff;
 }
 
@@ -43,4 +51,61 @@ h1 {
     height: 250px;
     width: 250px;
     background-color: lightpink;
+}
+
+#dibba1 {
+    height: 300px;
+    width: 300px;
+    background-color: rgb(37, 147, 211);
+}
+
+#dibba2 {
+    height: 300px;
+    width: 300px;
+    background-color: rgb(112, 250, 250);
+}
+
+#dibba3 {
+    height: 300px;
+    width: 300px;
+    background-color: rgb(172, 75, 197);
+}
+
+#nav {
+    margin: 25px 15px;
+
+    /* From https://css.glass */
+    /* background: rgba(255, 255, 255, 0.08);
+    border-radius: 15px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(3.3px);
+    -webkit-backdrop-filter: blur(3.3px);
+    border: 1px solid rgba(255, 255, 255, 0.4); */
+
+    background: rgba(255, 255, 255, 0.25);
+    -webkit-backdrop-filter: blur(11px);
+    border-radius: 15px;
+    backdrop-filter: blur(11px);
+    border: 1px solid rgba(255, 255, 255, 0.125);
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 65px;
+    font-size: 1.7rem;
+}
+
+#part2 {
+    display: flex;
+    gap: 50px;
+    font-size: 1.3rem;
+}
+
+#name {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 80px;
+    white-space: nowrap;
 }

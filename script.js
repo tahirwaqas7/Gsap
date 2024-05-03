@@ -36,10 +36,12 @@ gsap.from("h1", {
   // color: "red",
   color: "white",
   opacity: 0,
-  y: 30,
+  y: 100,
   duration: 2,
   delay: 1,
   stagger: -0.5,
+  repeat: -1,
+  yoyo: true,
 });
 
 // console.log("hello");
@@ -52,4 +54,59 @@ gsap.to(".wrap", {
   rotate: 360,
   borderRadius: "52%",
   scale: ".25",
+  yoyo: true,
+});
+
+// gsap.to("#dibba1", {
+//   x: 990,
+//   rotate: 360,
+//   duration: 1.5,
+//   y: 80,
+//   delay: 0.5,
+// });
+
+// gsap.to("#dibba2", {
+//   x: 990,
+//   rotate: 360,
+//   duration: 1.5,
+//   y: 80,
+//   delay: 2,
+//   backgroundColor: "red",
+//   repeat: -1,
+//   yoyo: true,
+// });
+
+// gsap.to("#dibba3", {
+//   x: 990,
+//   duration: 1.5,
+//   delay: 3.5,
+//   borderRadius: "50%",
+//   scale: 0.5,
+// });
+
+let tl = gsap.timeline();
+
+tl.to("#dibba1", {
+  x: 990,
+  rotate: 360,
+  duration: 1.5,
+  y: 80,
+  delay: 0.5,
+});
+
+tl.to("#dibba2", {
+  x: 990,
+  rotate: 360,
+  duration: 1.5,
+  y: 80,
+  backgroundColor: "red",
+  repeat: -1,
+  yoyo: true,
+});
+
+tl.to("#dibba3", {
+  x: 990,
+  duration: 1.5,
+  borderRadius: "50%",
+  scale: 0.5,
 });
