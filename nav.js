@@ -17,9 +17,9 @@ nav.from("h4", {
   stagger: 0.3,
 });
 
-nav.from("h1", {
+nav.from("#name", {
   y: 20,
   opacity: 0,
   scale: 0.2,
-    duration: 1,
+  duration:.61,
 });

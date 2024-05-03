@@ -40,7 +40,7 @@ body {
     background-color: rgb(241, 73, 22);
 }
 
-h1 {
+.text {
     color: #FFB000;
     display: flex;
     justify-content: center;
@@ -51,6 +51,7 @@ h1 {
     height: 250px;
     width: 250px;
     background-color: lightpink;
+
 }
 
 #dibba1 {
@@ -108,4 +109,5 @@ h1 {
     transform: translate(-50%, -50%);
     font-size: 80px;
     white-space: nowrap;
+    font-family: "Nunito", sans-serif;
 }

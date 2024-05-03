@@ -32,7 +32,7 @@ gsap.from("#box2", {
   scale: 0.3,
 });
 
-gsap.from("h1", {
+gsap.from(".text", {
   // color: "red",
   color: "white",
   opacity: 0,
