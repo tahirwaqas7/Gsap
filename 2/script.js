@@ -10,6 +10,10 @@ gsap.from("#page2 #box", {
   delay: 1,
   duration: 2,
   rotate: 360,
+  scroolTrigger: {
+    trigger: "#page2 #box",
+    scroller: "body",
+  },
 });
 
 gsap.from("#page3 #box", {
